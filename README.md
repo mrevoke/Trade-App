@@ -1,7 +1,7 @@
 
 # Stocks Watchlist App
 
-![Screenshot 1](https://github.com/mrevoke/trade/blob/main/screenshots/SS_1.png)
+![Screenshot 1](https://github.com/mrevoke/Trade-App/blob/main/screenshots/SS_1.png)
 
 
 The Stocks Watchlist App is a Flutter application designed to help users track their favorite stocks in real-time. With a user-friendly interface and intuitive features, users can easily manage their stock portfolio and stay updated on market trends.
@@ -51,10 +51,11 @@ Before running the app, ensure that you have Flutter installed on your machine. 
 
 Include screenshots of your app here to showcase its features.
 
-![Screenshot 1](https://github.com/mrevoke/trade/blob/main/screenshots/SS_1.png)
-*HomePage*
+![Screenshot 1](https://github.com/mrevoke/Trade-App/blob/main/screenshots/SS_1.png)
+HomePage
 
-![Screenshot 1](https://github.com/mrevoke/trade/blob/main/screenshots/SS_2.png)
 
-*expanded view*
+![Screenshot 1](https://github.com/mrevoke/Trade-App/blob/main/screenshots/SS_2.png)
+
+expanded view
 
