@@ -91,7 +91,7 @@ Widget buildWatchlistUI({
                   ),
                   children: [
                     Padding(
-                      padding: EdgeInsets.only(
+                      padding: const EdgeInsets.only(
                           left:
                               50.0), // Add padding to move content to the right
                       child: Column(
