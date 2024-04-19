@@ -14,7 +14,7 @@ Widget buildWatchlistUI({
   return Scaffold(
     appBar: AppBar(
       title: const Text('Stocks Watchlist'),
-      backgroundColor: const Color.fromARGB(255, 140, 190, 236), 
+      backgroundColor: const Color.fromARGB(255, 140, 190, 236),
     ),
     body: Column(
       children: [
@@ -26,7 +26,7 @@ Widget buildWatchlistUI({
               hintText: 'Search stocks by name...',
               prefixIcon: const Icon(Icons.search),
               filled: true,
-              fillColor: Colors.white, 
+              fillColor: Colors.white,
               border: OutlineInputBorder(
                 borderRadius: BorderRadius.circular(8.0),
               ),
@@ -90,15 +90,25 @@ Widget buildWatchlistUI({
                     ],
                   ),
                   children: [
-                    ListTile(
-                      title: Text('Company: ${symbolItem["company"]}'),
-                    ),
-                    ListTile(
-                      title: Text('Industry: ${symbolItem["industry"]}'),
-                    ),
-                    ListTile(
-                      title: Text(
-                          'Sectoral Index: ${symbolItem["sectoralIndex"]}'),
+                    Padding(
+                      padding: EdgeInsets.only(
+                          left:
+                              50.0), // Add padding to move content to the right
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          ListTile(
+                            title: Text('Company: ${symbolItem["company"]}'),
+                          ),
+                          ListTile(
+                            title: Text('Industry: ${symbolItem["industry"]}'),
+                          ),
+                          ListTile(
+                            title: Text(
+                                'Sectoral Index: ${symbolItem["sectoralIndex"]}'),
+                          ),
+                        ],
+                      ),
                     ),
                   ],
                 ),
@@ -115,7 +125,7 @@ Widget buildWatchlistUI({
             child: ElevatedButton(
               onPressed: goBack,
               style: ElevatedButton.styleFrom(
-                backgroundColor: const Color.fromARGB(255, 140, 190, 236), 
+                backgroundColor: const Color.fromARGB(255, 140, 190, 236),
               ),
               child: const Text(
                 'Prev',
@@ -128,11 +138,11 @@ Widget buildWatchlistUI({
             child: ElevatedButton(
               onPressed: hasNextItems() ? loadMoreItems : null,
               style: ElevatedButton.styleFrom(
-                backgroundColor: const Color.fromARGB(255, 140, 190, 236), 
+                backgroundColor: const Color.fromARGB(255, 140, 190, 236),
               ),
               child: const Text(
                 'Next',
-                style: TextStyle(color: Colors.black), 
+                style: TextStyle(color: Colors.black),
               ),
             ),
           ),
