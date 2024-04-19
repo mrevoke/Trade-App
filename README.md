@@ -14,7 +14,10 @@ The Stocks Watchlist App is a Flutter application designed to help users track t
 
 - **Search Functionality**: The app comes equipped with a powerful search functionality that enables users to quickly find stocks by name. Whether users are searching for specific companies or browsing through a list of stocks, the intuitive search feature simplifies the process of discovering and adding new stocks to the watchlist. By providing instant search results and auto-suggestions, the app enhances the user experience by streamlining the stock selection process.
 
+- **Heart Favorite Stocks**: Users can mark their favorite stocks with a heart icon, allowing them to easily identify and prioritize stocks of interest. This feature adds a personal touch to the watchlist, enabling users to customize their investment portfolio according to their preferences.
+
 - **Pagination**: Seamlessly load more stocks as you scroll through your watchlist. The pagination feature ensures smooth navigation and optimal performance, even when dealing with a large number of stocks. By dynamically loading additional stocks as the user scrolls down the watchlist, the app delivers a responsive and efficient user interface that adapts to the user's browsing behavior. This enables users to explore their watchlist effortlessly without experiencing any lag or slowdowns.
+
   
 This app was meticulously crafted as part of an internship assignment, demonstrating the developer's proficiency in mobile app development and their commitment to delivering a high-quality product that meets the needs of modern investors.
 
